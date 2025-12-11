@@ -1,37 +1,86 @@
-AI POWERED Complete-Inspection-system-for-Welding-Line
+AI Inspection System
+Weld Defect Detection • Coating Defect Detection • Flange Dimension Compliance (ASME Based)
 
-Weld Defect Detection • Coating Defect Detection • Flange Dimension Compliance
-
-Complete End-to-End AI Web Application (Frontend + Backend)
+A full end-to-end Artificial Intelligence inspection platform capable of analyzing weld surfaces, coating conditions, and flange dimensions based on industrial standards.
+This repository includes the complete backend, frontend, sample input/output media, and demo video — except trained model files.
 
 🚀 Overview
 
-RICI AI Inspection System is a complete AI-powered inspection platform that automates:
+RICI AI Inspection System provides three powerful AI modules in one platform:
 
 🔧 1. Weld Defect Detection
 
-YOLO-based defect identification
+YOLO-based inspection
 
-Bounding boxes + confidence
+Detects cracks, porosity, undercut, slag, inclusions, lack of fusion, burn-through, etc.
 
-Supports images & videos
+Supports image & video processing
+
+High-accuracy bounding boxes + confidence scores
 
 🎨 2. Coating Defect Detection
 
-Identifies coating cracks, blisters, chips, corrosion
+Detects coating cracks, blistering, corrosion, peeling, holidays, and surface damage
 
-Works on high-resolution images
+Works with high-resolution input images
 
-🔩 3. Flange Dimension Compliance System
+AI identifies defect regions automatically
 
-Uses ArUco markers + depth / camera calibration
+🔩 3. Flange Dimension Compliance System (ASME / Applicable Standard Based)
 
-Measures critical flange parameters
+A complete dimension-verification and compliance-testing system for industrial flanges.
 
-Auto-checks compliance using standard flange datasets
+The system:
 
-Supports custom unit selection (mm / inches)
+✔ Measures the flange using:
 
-The project includes a complete backend, frontend dashboard, sample inputs/outputs, and a demo video — except trained model files.
+ArUco markers
 
-Dataset and further deatials can be provided only for research purpose.
+Depth estimation
+
+Camera calibration
+
+PnP pose estimation
+
+Pixel-to-mm / inch conversion
+
+Geometric analysis
+
+✔ Extracts key flange dimensions:
+
+Outer diameter
+
+Inner diameter
+
+Bolt circle diameter
+
+Thickness
+
+Number of bolt holes
+
+Pitch
+
+Hole diameter
+
+Raised face dimensions
+
+Other critical flange parameters
+
+✔ Compares measurements with ASME flange standards
+
+The backend uses:
+
+data/flange_specifications11.csv
+
+
+This file contains ASME or applicable industry standard dimensions.
+
+✔ PASS / FAIL decision
+
+The system automatically determines compliance:
+
+PASS → flange dimensions are within standard tolerance
+
+FAIL → flange is out of ASME limits
+
+This makes the system fully ready for industrial QA/QC inspection, eliminating manual measurement errors.DATA IS only AVAIBLABE for research purpose.
