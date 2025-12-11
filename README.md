@@ -6,7 +6,7 @@ This repository includes the complete backend, frontend, sample input/output med
 
 🚀 Overview
 
-RICI AI Inspection System provides three powerful AI modules in one platform:
+ AI Inspection System provides three powerful AI modules in one platform:
 
 🔧 1. Weld Defect Detection
 
