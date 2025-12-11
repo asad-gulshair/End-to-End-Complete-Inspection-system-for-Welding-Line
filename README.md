@@ -1,3 +1,5 @@
+AI POWERED Complete-Inspection-system-for-Welding-Line
+
 Weld Defect Detection • Coating Defect Detection • Flange Dimension Compliance
 
 Complete End-to-End AI Web Application (Frontend + Backend)
