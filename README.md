@@ -32,4 +32,4 @@ Supports custom unit selection (mm / inches)
 
 The project includes a complete backend, frontend dashboard, sample inputs/outputs, and a demo video — except trained model files.
 
-📂 Repository Structure
+Dataset and further deatials can be provided only for research purpose.
